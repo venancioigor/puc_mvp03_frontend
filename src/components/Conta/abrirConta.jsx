@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Form, FormGroup, Label, Input, Button } from 'reactstrap';
-import { ContaService } from '../../service/ContaService/contaService';
+import { ContaService } from '../../service/ContaService/ContaService.js';
 import { BancoService } from '../../service/BancoService/bancoService';
 
 const contaService = new ContaService();
