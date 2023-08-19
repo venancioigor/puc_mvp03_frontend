@@ -50,7 +50,7 @@ function VerSaldoTotalContas() {
             onChange={handleOnChange} />
         </FormGroup>
         <FormGroup>
-          <Label for="name">Saldo Porquinhos Total em US$ - Cotação Dólar Hoje:<strong style={{ "color": "green" }}> {valorDolarReal}</strong></Label>
+          <Label for="name">Saldo Contas Total em US$ - Cotação Dólar Hoje:<strong style={{ "color": "green" }}> {valorDolarReal}</strong></Label>
           <Input type="text" name="name" id="name" value={saldoContasTotal}
             onChange={handleOnChange} />
         </FormGroup>
