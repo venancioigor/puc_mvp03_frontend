@@ -1,7 +1,7 @@
 class ContaService {
 
     abrirConta(cpfCliente, idBanco, sd, numeroConta) {
-        return fetch('http://127.0.0.1:5000/api/contas/abrirConta', {
+        return fetch('http://127.0.0.1:5001/api/contas/abrirConta', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -14,7 +14,7 @@ class ContaService {
     }
 
     transferirValorEntreContas(idOrigem, idDestino, cpfCliente, valorOrigem) {
-        return fetch('http://127.0.0.1:5000/api/contas/transferirValorEntreContas', {
+        return fetch('http://127.0.0.1:5001/api/contas/transferirValorEntreContas', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -27,19 +27,19 @@ class ContaService {
     }
 
     getContasPorCliente(cpf) {
-        return fetch(`http://127.0.0.1:5000/api/contas/getContasPorCliente?cpf=${cpf}`)
+        return fetch(`http://127.0.0.1:5001/api/contas/getContasPorCliente?cpf=${cpf}`)
             .then(response => response.json())
             .catch(error => console.error(error));
     }
 
     getSaldoTotalContas(cpf) {
-        return fetch(`http://127.0.0.1:5000/api/contas/getSaldoTotalContas?cpf=${cpf}`)
+        return fetch(`http://127.0.0.1:5001/api/contas/getSaldoTotalContas?cpf=${cpf}`)
             .then(response => response.json())
             .catch(error => console.error(error));
     }
 
     deletarConta(cpfCliente, idConta) {
-        return fetch(`http://127.0.0.1:5000/api/contas/deletarConta?id_conta=${idConta}&cpf=${cpfCliente}`, {
+        return fetch(`http://127.0.0.1:5001/api/contas/deletarConta?id_conta=${idConta}&cpf=${cpfCliente}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
