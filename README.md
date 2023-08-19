@@ -23,7 +23,7 @@ O **objetivo** dessa aplicação é solucionar esse problema.
 3º - Executar npm run start
 
 ## API Externa (Componente B)
-Esse frontEnd faz requisições para api externa ![Exchangerate](https://www.exchangerate-api.com/), onde é possível utilizar uma chave api grátis.
+Esse frontEnd faz requisições para api externa Exchangerate (https://www.exchangerate-api.com/), onde é possível utilizar uma chave api grátis.
 
 A rota utilizada é: https://v6.exchangerate-api.com/v6/{chave-api-gratis}/latest/USD
 Cadastro: é necessário fazer o cadastro para receber a chave da api grátis para poder fazer requisições.
