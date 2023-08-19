@@ -1,6 +1,6 @@
 # MyBank - Quanto que você tem de dinheiro?
 
-Pode ser que você tenha conta e poupança em diversos bancos e, nesses casos, fica difícil de saber quanto de dinheiro de fato você tem.
+Pode ser que você tenha conta e poupança em diversos bancos e, nesses casos, fica difícil de saber quanto de dinheiro de fato você tem, inclusive em dólar.
 
 O **objetivo** dessa aplicação é solucionar esse problema.
 
