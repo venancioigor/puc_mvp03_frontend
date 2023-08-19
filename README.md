@@ -26,8 +26,8 @@ O **objetivo** dessa aplicação é solucionar esse problema.
 Esse frontEnd faz requisições para api externa Exchangerate (https://www.exchangerate-api.com/), onde é possível utilizar uma chave api grátis.
 
 A rota utilizada é: https://v6.exchangerate-api.com/v6/{chave-api-gratis}/latest/USD
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 Cadastro: é necessário fazer o cadastro para receber a chave da api grátis para poder fazer requisições.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 Licença de uso: É possível fazer 1.500 requisições de graça por mês, como é possível ver na imagem abaixo.
 ![image](https://github.com/venancioigor/puc_mvp03_frontend/assets/62806428/742efade-bc75-47d6-af03-31dc5e7b30b9)
